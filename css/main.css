@@ -1,0 +1,146 @@
+.side-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: #FFF;
+    border-right: 1px solid #D7DFE9;
+}
+
+/*  input search */
+.search{
+    position: relative;
+}
+.search .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+input{
+    text-indent: 30px;
+    padding: 5px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom:1px solid var(--light-grey-100, #D7DFE9) !important
+}
+input:focus{
+    outline: none !important;
+}
+input::placeholder{
+    color: rgba(126, 133, 142, 0.6);
+    font-size: 14px;
+
+}
+
+.side-bar  .side-bar-links p{
+    font-size: 17px;
+    color: #3a4855;
+}
+
+.side-bar .side-bar-links .notification-number{
+    width: 24px;
+    height: 24px;
+    background-color: #ceeeed;
+    color: #0caca7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border-radius: 50%;
+}
+
+
+/* accordion */
+.favourite-content .accordion-item{
+    border:none !important;
+}
+.accordion-item .accordion-header:hover  , .accordion-item .accordion-header button:hover{
+    background-color: rgb(200 203 207 / 10%);
+}
+/* .accordion-item .accordion-header button:hover{
+    background-color: rgb(200 203 207 / 10%);
+} */
+
+.accordion-button{
+    color: rgba(126, 133, 142, 0.6);
+    /* padding-left: 25px !important;
+    padding-right: 25px !important; */
+    padding-left: 8px;
+    font-size: 13px;
+}
+.accordion-button::after {
+    width: 14px;
+    height: 14px;
+    background-size: cover;
+}
+
+.accordion-button:not(.collapsed) {
+    color: rgba(126, 133, 142, 0.6) !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:focus{
+    border: none !important;
+    outline: 0;
+    box-shadow: none;
+}
+.accordion-body p{
+    margin: 0 0 0 4px;
+    font-size: 12px;
+    color: #7e858e;
+    cursor: pointer;
+}
+
+.accordion-item:last-of-type .accordion-collapse {
+    margin-top: -22px;
+}
+
+/* spaces style */
+.icon-arrow{
+    margin-left: -26px;
+}
+.icon-space{
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    background: red;
+    margin-left: 9px;
+}
+.icon-space::before{
+    font-size: 12px;
+}
+
+.icons-drop-downs{
+    margin-right: -25px;
+}
+
+.dropdown-style{
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 16px 0 rgba(23, 31, 70, 0.16);
+    top: 24px;
+    z-index: 99;
+    left: 16px;
+    width: 135px;
+}
+.dropdown-style2{
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 16px 0 rgba(23, 31, 70, 0.16);
+    top: 24px;
+    z-index: 99;
+    left: 16px;
+    width: 135px;
+}
+
+.dropdown-content {
+    display: none;
+  }
+  
+  .dropdown-content.active {
+    display: block;
+  }
