@@ -137,10 +137,10 @@ input::placeholder{
     width: 135px;
 }
 
-.dropdown-content {
+.dropdown-content , .dropdown-content2 {
     display: none;
   }
   
-  .dropdown-content.active {
+  .dropdown-content.active , .dropdown-content.active {
     display: block;
   }
